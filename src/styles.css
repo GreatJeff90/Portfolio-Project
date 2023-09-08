@@ -1,0 +1,194 @@
+/* Reset some default styles for a clean slate */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Style the header section */
+header {
+    text-align: center;
+    padding: 20px;
+    background-image: url(/assets/book.jpeg);
+    background-color: rgba(0, 0, 0, 0.923);
+    background-position: center;
+    background-size: cover;
+    color: #000;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+header p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #009688;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #085a51;
+}
+
+
+/* Style the button */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #009688;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #007a6b;
+}
+
+/* Style the feature section */
+#features {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.feature {
+    display: inline-block;
+    width: 30%;
+    margin: 0 2%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    height: 200px;
+}
+
+/* Style the feature images */
+.feature img {
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    height: 100px; /* Maintain the image's aspect ratio */
+    border-radius: 5px; /* Rounded corners for the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the image */
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+
+/* Style the about section */
+#about {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+    width: 60%;
+    margin: 30px auto;
+}
+
+#about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+#about ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#about ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#about ul li a {
+    color: #009688;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Style the footer section */
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer content */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Style the footer content */
+.footer-content {
+    max-width: 1200px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+.footer-content p {
+    font-size: 14px; /* Font size for the copyright notice */
+}
+
+.footer-content p a {
+    color: #fff; /* Color for links in the footer */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.footer-content p a:hover {
+    color: #007bff; /* Change link color on hover */
+}
+
+
+/* Optional video section styles can be added here */
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .feature {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
